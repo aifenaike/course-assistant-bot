@@ -1,0 +1,216 @@
+{
+    "luis_schema_version": "2.1.0",
+    "versionId": "0.1",
+    "name": "course_assistant",
+    "desc": "Grade Mathematics Help bot",
+    "culture": "en-us",
+    "intents": [
+      {
+        "name": "ask duration"
+      },
+      {
+        "name": "ask units"
+      },
+      {
+        "name": "learning objectives"
+      },
+      {
+        "name": "expectations"
+      }
+    ],
+    "entities": [
+      {
+        "name": "module.type"
+      },
+      {
+        "name": "objective.type"
+      }      
+    ],
+    "composites": [],
+    "closedLists": [],
+    "bing_entities": [],
+    "model_features": [],
+    "regex_features": [],
+    "utterances": [
+      {
+        "text": "estimate the time needed to complete all the modules in this course",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "tell us how long it takes to finish all the modules in this course in hours",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "provide an estimate of the time needed to finish all the modules in this course",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "please estimate the number of hours needed to finish all the courses in this course.",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "suggest how many hours it takes to complete all the modules in this course",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "how many hours should i devote to the similarity module of this course?",
+        "intent": "ask duration",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 38,
+                "endPos": 48
+              }
+        ]
+      },
+      {
+        "text": "how many hours should i allocate to the this course's module",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "how many hours do you suggest i put in for the module of this course",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "how long does it take to complete the module in this course",
+        "intent": "ask duration",
+        "entities": []
+      },
+      {
+        "text": "suggest the number of hours to complete the number module of this course",
+        "intent": "ask duration",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 44,
+                "endPos": 50
+              }
+        ]
+      },
+      {
+        "text": "how long does it take to complete the statistics module in this course",
+        "intent": "ask duration",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 38,
+                "endPos": 48
+              }
+        ]
+      },
+      {
+        "text": "how many hours do you suggest i put in for the linear relations module of this course",
+        "intent": "ask duration",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 47,
+                "endPos": 63
+              }
+        ]
+      },
+      {
+        "text": "how many hours do you suggest i put in for the circle geometry module of this course",
+        "intent": "ask duration",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 47,
+                "endPos": 62
+              }
+        ]
+      },
+      {
+        "text": "how long will it take to achieve all of the learning outcomes in the polynomials module",
+        "intent": "ask duration",
+        "entities": [
+          {
+            "entity": "module.type",
+            "startPos": 69,
+            "endPos": 80
+          }
+        ]
+      },
+      {
+        "text": "how many units are there in the statistics and probability module",
+        "intent": "ask units",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 32,
+                "endPos": 58
+              }
+        ]
+      },
+      {
+        "text": "How many units make up the number module?",
+        "intent": "ask units",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 27,
+                "endPos": 33
+              }
+        ]
+      },
+      {
+        "text": "the general learning objective of the module of this course",
+        "intent": "learning objectives",
+        "entities": [
+          {
+            "entity": "objective.type",
+            "startPos": 4,
+            "endPos": 11
+          }
+        ]
+      },
+      {
+        "text": "what is expected from the students on completion of the course",
+        "intent": "expectations",
+        "entities": []
+      },
+      {
+        "text": "What is expected of the students when the course is over?",
+        "intent": "expectations",
+        "entities": []
+      },
+      {
+        "text": "to what degree are students able to understand the learning materials",
+        "intent": "expectations",
+        "entities": []
+      },
+      {
+        "text": "How well are students able to comprehend the taught material",
+        "intent": "expectations",
+        "entities": []
+      },
+      {
+        "text": "What are the goals of learning?",
+        "intent": "learning objectives",
+        "entities": []
+      },
+      {
+        "text": "objectives of the statistics and probability module",
+        "intent": "learning objectives",
+        "entities": []
+      },
+      {
+        "text": "learning outcomes for the power module",
+        "intent": "learning objectives",
+        "entities": [
+            {
+                "entity": "module.type",
+                "startPos": 26,
+                "endPos": 31
+              }
+        ]
+      }
+    ]
+  }
