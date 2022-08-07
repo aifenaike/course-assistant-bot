@@ -1,0 +1,24 @@
+{
+    "name": "course-bot",
+    "version": "1.0.0",
+    "description": "Basic bot with LUIS app for students to query educational manual",
+    "author": "Ifenaike Alexander",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aifenaike/course-assistant-bot.git"
+    },
+    "dependencies": {
+        "botbuilder": "~4.6.0",
+        "botbuilder-ai": "~4.6.0",
+        "botbuilder-dialogs": "~4.6.0",
+        "botbuilder-testing": "~4.6.0",
+        "dotenv": "^8.2.0",
+        "restify": "~8.4.0"
+    }
+}
